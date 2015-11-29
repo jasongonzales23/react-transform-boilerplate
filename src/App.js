@@ -22,7 +22,6 @@ function mapDispatchToProps(dispatch) {
 @connect(mapStateToProps, mapDispatchToProps)
 export class App extends Component {
   render() {
-    console.log(this.props)
     return (
       <div>
         <Counter increment={1} color={this.props.color} />
